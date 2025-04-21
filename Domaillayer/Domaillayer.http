@@ -1,0 +1,6 @@
+@Domaillayer_HostAddress = http://localhost:5202
+
+GET {{Domaillayer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
