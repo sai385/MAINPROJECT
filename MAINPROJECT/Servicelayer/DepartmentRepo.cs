@@ -12,7 +12,7 @@ namespace MAINPROJECT.Servicelayer
     {
         private readonly ApplicationDbContext _context;
         private readonly IMapper _mapper;
-        public DepartmentRepo(ApplicationDbContext context, IMapper mapper)
+        public DepartmentRepo(ApplicationDbContext context, IMapper mapper)//
         {
             _context = context;
 
